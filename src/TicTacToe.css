@@ -1,0 +1,50 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.board {
+  margin: 20px 0;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #333;
+  margin: -1px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  background: white;
+}
+
+.square:hover {
+  background: #f0f0f0;
+}
+
+.status {
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.reset-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #45a049;
+}
